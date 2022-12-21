@@ -26,18 +26,21 @@ To guide the project, the following questions were considered:
 
 ### 2. Prepare Data
 
+In the [helper.py](TBD)
+file, the `clean_portfolio`, `clean_profile` and `clean_transcript` functions are
+provided. They implement the following functionality:
 
-**Portfolio**
-* Split the channels into several columns
-* Split offer_type into several columns
+**Portfolio Dataframe Tasks**
+* Split the channels into separate columns
+* Split offer_type into separate columns
 * change id column name to offer_id
 
-**Profile **
+**Profile Dataframe Tasks**
 * Fix the date.
 * Split gender column into dummy columns
 * Change the column name id to customer_id. 
 
-**Transcript**
+**Transcript Dataframe Tasks**
 
 * Split value in several columns for offers and transactions
 * Split event column into several columns
@@ -69,5 +72,6 @@ TBD
     - `portfolio.json` :containing offer ids and meta data about each offer (duration, type, etc.)
     - `profile.json` :containing demographic data for each customer
     - `transcript.json` :containing records for transactions, offers received, offers viewed, and offers completed 
-  - `Starbucks_Capstone_notebook` :containing data analysis 
+  - `Starbucks_Capstone_notebook` :notebook contains the data analysis 
   - `helper.py`: containing `clean_portfolio`, `clean_profile` and `clean_transcript` to implement functions
+
