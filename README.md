@@ -27,17 +27,17 @@ To guide the project, the following questions were considered:
 ### 2. Prepare Data
 
 
-**Portfolio Dataframe Tasks**
+**Portfolio**
 * Split the channels into several columns
 * Split offer_type into several columns
 * change id column name to offer_id
 
-**Profile Dataframe Tasks**
+**Profile **
 * Fix the date.
 * Split gender column into dummy columns
 * Change the column name id to customer_id. 
 
-**Transcript Dataframe Tasks**
+**Transcript**
 
 * Split value in several columns for offers and transactions
 * Split event column into several columns
